@@ -4,7 +4,7 @@ cask "multideco" do
   homepage "https://www.hhssoftware.com/multideco/"
   version "4.22.0"
   url "https://www.hhssoftware.com/multideco/installfile.php?file=multideco_#{version}_arm_intel.dmg&keytag=1608834&qwerty=#{Time.now.to_i}&os=mac_intel"
-  sha256 "51a5a7551ffd054cf034e37fa0e53bd322703625b553f5abcde0967f6ca91562"
+  sha256 "675bd4f4e07931bbed24af60502813d15dcb87807debd4be40dd4d7b9609460b"
 
   livecheck do
     url "https://www.hhssoftware.com/multideco/download.php"
