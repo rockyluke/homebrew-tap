@@ -1,4 +1,4 @@
-cask multideco do
+cask "multideco" do
   name "MultiDeco"
   desc "Dive decompression planning software"
   homepage "https://www.hhssoftware.com/multideco/"
