@@ -6,7 +6,13 @@ class BitwardenCli < Formula
   url "https://github.com/bitwarden/clients/releases/download/cli-v#{version}/bw-macos-#{version}.zip"
   sha256 "3a2a82f3616cda6f760d1b8f1f3ae4b5451a28ecbe56df5e8941ff98267d9241"
 
+  conflicts_with "bitwarden-cli"
+  
   def install
     bin.install "bw" => "bw"
+  end
+
+  test do
+    system "#{bin}/bw --version"
   end
 end
