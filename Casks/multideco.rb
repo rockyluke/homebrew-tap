@@ -13,7 +13,7 @@ cask "multideco" do
     regex(/Mac[[:space:]]v?(\d+(?:\.\d+)+)/i)
   end
 
-  auto_updates true
+  auto_updates false
 
   pkg "MultiDeco_arm_intel.pkg"
 
